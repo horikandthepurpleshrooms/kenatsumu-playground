@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		26CA30C02EC9E1BA00BD5F2E /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 26CA30BF2EC9E1BA00BD5F2E /* RevenueCat */; };
-		26CA30C22EC9E1BA00BD5F2E /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 26CA30C12EC9E1BA00BD5F2E /* RevenueCatUI */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		2634C35E2EC9C32D006F0F4E /* KenatsumuPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenatsumuPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -41,8 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CA30C22EC9E1BA00BD5F2E /* RevenueCatUI in Frameworks */,
-				26CA30C02EC9E1BA00BD5F2E /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +78,6 @@
 			);
 			name = KenatsumuPlayground;
 			packageProductDependencies = (
-				26CA30BF2EC9E1BA00BD5F2E /* RevenueCat */,
-				26CA30C12EC9E1BA00BD5F2E /* RevenueCatUI */,
 			);
 			productName = KenatsumuPlayground;
 			productReference = 2634C35E2EC9C32D006F0F4E /* KenatsumuPlayground.app */;
@@ -117,7 +108,6 @@
 			mainGroup = 2634C3552EC9C32D006F0F4E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26CA30BE2EC9E1BA00BD5F2E /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2634C35F2EC9C32D006F0F4E /* Products */;
@@ -386,30 +376,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		26CA30BE2EC9E1BA00BD5F2E /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.48.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		26CA30BF2EC9E1BA00BD5F2E /* RevenueCat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 26CA30BE2EC9E1BA00BD5F2E /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
-			productName = RevenueCat;
-		};
-		26CA30C12EC9E1BA00BD5F2E /* RevenueCatUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 26CA30BE2EC9E1BA00BD5F2E /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
-			productName = RevenueCatUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2634C3562EC9C32D006F0F4E /* Project object */;
 }
