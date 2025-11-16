@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import RevenueCat
 
 @main
 struct KenatsumuPlaygroundApp: App {
+    init() {
+        Purchases.configure(withAPIKey: "test_RPNaPMqrzNMJoCirhdQpvTgeJwd")
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
