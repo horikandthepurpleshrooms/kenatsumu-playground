@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject
+    private var entitlementManager: EntitlementManager
+    
+    @EnvironmentObject
+    private var purchaseManager: PurchaseManager
+    
     @State private var displayPaywall = false
     
     
@@ -26,6 +32,9 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Playground")
+            .sheet(isPresented: $displayPaywall) {
+                PremiumInfoSheet(isPresented: $displayPaywall)
+            }
         }
     }
 }

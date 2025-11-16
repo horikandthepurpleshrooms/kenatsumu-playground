@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		26CA30D42EC9F34E00BD5F2E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA30D32EC9F34E00BD5F2E /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2634C35E2EC9C32D006F0F4E /* KenatsumuPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenatsumuPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CA30D32EC9F34E00BD5F2E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CA30D42EC9F34E00BD5F2E /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				2634C3602EC9C32D006F0F4E /* KenatsumuPlayground */,
+				26CA30D22EC9F34E00BD5F2E /* Frameworks */,
 				2634C35F2EC9C32D006F0F4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +63,14 @@
 				2634C35E2EC9C32D006F0F4E /* KenatsumuPlayground.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		26CA30D22EC9F34E00BD5F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26CA30D32EC9F34E00BD5F2E /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +287,7 @@
 				INFOPLIST_FILE = KenatsumuPlayground/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kenatsumu Playground";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -321,7 +336,7 @@
 				INFOPLIST_FILE = KenatsumuPlayground/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kenatsumu Playground";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
